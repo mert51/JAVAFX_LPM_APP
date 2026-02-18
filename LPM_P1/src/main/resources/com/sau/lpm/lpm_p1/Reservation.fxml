@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="255.0" prefWidth="445.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.sau.lpm.lpm_p1.controller.ReservationController">
+    <children>
+        <Label layoutX="26.0" layoutY="20.0" text="STUDENTID:" />
+        <Label layoutX="26.0" layoutY="50.0" text="PLACEID:" />
+        <Label layoutX="26.0" layoutY="79.0" text="DATE:" />
+        <Label layoutX="26.0" layoutY="109.0" text="DURATION:" />
+        <TextField fx:id="reservationStudentId" layoutX="89.0" layoutY="16.0" />
+        <TextField fx:id="reservationPlaceId" layoutX="89.0" layoutY="46.0" />
+        <TextField fx:id="reservationDate" layoutX="89.0" layoutY="76.0" />
+        <TextField fx:id="reservationDuration" layoutX="89.0" layoutY="105.0" />
+        <Button fx:id="getReservation" layoutX="243.0" layoutY="55.0" mnemonicParsing="false" onAction="#getReservation" text="GET" />
+        <Button fx:id="updateReservation" layoutX="91.0" layoutY="131.0" mnemonicParsing="false" onAction="#updateReservation" text="UPDATE" />
+        <Button fx:id="saveReservation" layoutX="35.0" layoutY="131.0" mnemonicParsing="false" onAction="#saveReservation" text="SAVE" />
+        <Button fx:id="deleteReservation" layoutX="168.0" layoutY="131.0" mnemonicParsing="false" onAction="#deleteReservation" text="DELETE" />
+        <Button fx:id="close" layoutX="243.0" layoutY="131.0" mnemonicParsing="false" onAction="#close" text="CLOSE" />
+        <Button fx:id="clearPlace" layoutX="243.0" layoutY="93.0" mnemonicParsing="false" onAction="#clearPlace" text="CLEAR" />
+    </children>
+</AnchorPane>

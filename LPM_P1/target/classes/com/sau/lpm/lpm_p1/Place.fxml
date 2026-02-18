@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="250.0" prefWidth="340.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.sau.lpm.lpm_p1.controller.PlaceController">
+    <children>
+        <Label layoutX="19.0" layoutY="14.0" text="ID:" />
+        <Label layoutX="6.0" layoutY="38.0" text="BUILDING:" />
+        <Label layoutX="14.0" layoutY="60.0" text="FLOOR:" />
+        <Label layoutX="16.0" layoutY="82.0" text="ROOM:" />
+        <Label layoutX="20.0" layoutY="109.0" text="SEAT:" />
+        <TextField fx:id="placeId" layoutX="62.0" layoutY="10.0" />
+        <TextField fx:id="building" layoutX="62.0" layoutY="34.0" />
+        <TextField fx:id="floor" layoutX="62.0" layoutY="56.0" />
+        <TextField fx:id="room" layoutX="62.0" layoutY="78.0" />
+        <TextField fx:id="seat" layoutX="62.0" layoutY="105.0" />
+        <Button fx:id="getPlace" layoutX="249.0" layoutY="34.0" mnemonicParsing="false" onAction="#getPlace" text="GET" />
+        <Button fx:id="updatePlace" layoutX="87.0" layoutY="138.0" mnemonicParsing="false" onAction="#updatePlace" text="UPDATE" />
+        <Button fx:id="savePlace" layoutX="20.0" layoutY="138.0" mnemonicParsing="false" onAction="#savePlace" text="SAVE" />
+        <Button fx:id="deletePlace" layoutX="170.0" layoutY="138.0" mnemonicParsing="false" onAction="#deletePlace" text="DELETE" />
+        <Button fx:id="close" layoutX="242.0" layoutY="138.0" mnemonicParsing="false" onAction="#close" text="CLOSE" />
+        <Button fx:id="clearPlace" layoutX="242.0" layoutY="87.0" mnemonicParsing="false" onAction="#clearPlace" text="CLEAR" />
+    </children>
+</AnchorPane>
