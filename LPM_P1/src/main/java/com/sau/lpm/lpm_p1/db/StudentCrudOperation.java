@@ -8,7 +8,7 @@ import java.util.Optional;
 public class StudentCrudOperation {
     static final String DB_URL = "jdbc:postgresql://localhost:5432/postgres";
     static final String USER = "postgres";
-    static final String PASS = "Jeep1234";
+    static final String PASS = "silyaz";
 
     // Get a student by id
     public Optional<Student> getStudentById(int id) {
@@ -153,3 +153,4 @@ public class StudentCrudOperation {
         return result;
     }
 }
+
