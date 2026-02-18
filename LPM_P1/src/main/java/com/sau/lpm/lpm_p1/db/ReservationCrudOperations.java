@@ -12,7 +12,7 @@ import java.util.Optional;
 public class ReservationCrudOperations {
     static final String DB_URL = "jdbc:postgresql://localhost:5432/postgres";
     static final String USER = "postgres";
-    static final String PASS = "Jeep1234";
+    static final String PASS = "silyaz";
 
     // Get a reservation by studentId and placeId
     public Optional<Reservation> getReservationByStudentAndPlace(int studentId, int placeId) {
@@ -164,3 +164,4 @@ public class ReservationCrudOperations {
         return result;
     }
 }
+
