@@ -12,7 +12,7 @@ import java.util.Optional;
 public class PlaceCrudOperations {
     static final String DB_URL = "jdbc:postgresql://localhost:5432/postgres";
     static final String USER = "postgres";
-    static final String PASS = "Jeep1234";
+    static final String PASS = "silyaz";
 
     // Get a place by id
     public Optional<Place> getPlaceById(int id) {
@@ -99,3 +99,4 @@ public class PlaceCrudOperations {
         return result;
     }
 }
+
